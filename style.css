@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+table{
+    border-width:3px;
+    border-style:solid;
+    border-color:#cb9d6b;
+    rule:all;
+    width: 100%;
+    margin: 10px 20px;
+    table-layout: fixed;
+}
+tr:nth-child(1){
+    font-weight:bold;
+    background-color: #ffe4ce;
+    font-size:18px
+}
+header{
+    background-color: #89662e;
+    width: 100%;
+    padding: 20px;
+}
+h3{
+    color:rgb(255, 251, 247)
+}
+footer{
+    background-color: #89662e;
+    width: 100%;
+    padding: 20px;
+    color:rgb(255, 251, 240);
+    text-align: center;
+}
+img{
+    border-radius: 10%;
+    size: cover;
+}
+
