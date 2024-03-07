@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     width: 100%;
 }
@@ -8,32 +8,91 @@ table{
     border-style:solid;
     border-color:#cb9d6b;
     rule:all;
-    width: 100%;
-    margin: 10px 20px;
+    margin: 10px 0;
     table-layout: fixed;
 }
 tr:nth-child(1){
     font-weight:bold;
     background-color: #ffe4ce;
-    font-size:18px
+    font-size:18px;
+    height:30px;
+}
+.sp{
+    border-style: hidden;
 }
 header{
-    background-color: #89662e;
-    width: 100%;
-    padding: 20px;
+    background-color: #f3cb8be1;
+    height: 80px;
+    
+    
+    
 }
-h3{
-    color:rgb(255, 251, 247)
+.navbar ul {
+    text-align: center;
+    line-height:80px;
+}
+.navbar ul li {
+    list-style-type: none;
+    display: inline;
+    margin: 0 8px;
+}
+.navbar ul li a {
+    color:rgb(107, 72, 39);
+    text-decoration:none;
+}
+.navbar ul li a:hover {
+    text-decoration:underline;
+}
+
+.join{
+    display: flex;
+    justify-content: space-between;
+}
+.join div{
+    width: 300px;
+    text-align: left;
+}
+.join1{
+    display: flex;
+    justify-content: space-between;
+}
+.join1 div{
+    width: 300px;
+    text-align: left;
+}
+
+h1{
+    color:rgb(107, 72, 39);
+    text-align: center;
+    line-height: 80px;
+}
+section{
+    width: 100%
+}
+.aboutme{
+    color:white;
+    height: 85vh;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.523);
+    background-image: url("images/IMG_6697.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bg{
+
 }
 footer{
-    background-color: #89662e;
-    width: 100%;
-    padding: 20px;
-    color:rgb(255, 251, 240);
+    background-color:#f3cb8b;
+    color:rgb(107, 72, 39);
     text-align: center;
+    line-height: 40px;
 }
-img{
+.pic{
     border-radius: 10%;
     size: cover;
 }
 
+.pic1{
+    opacity: 0.5;
+}
