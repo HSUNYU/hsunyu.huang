@@ -8,7 +8,7 @@ table{
     border-style:solid;
     border-color:#cb9d6b;
     rule:all;
-    margin: 10px 0;
+    margin: 10px;
     table-layout: fixed;
 }
 tr:nth-child(1){
@@ -19,6 +19,8 @@ tr:nth-child(1){
 }
 .sp{
     border-style: hidden;
+    margin: 0;
+    padding: 5px;
 }
 header{
     background-color: #f3cb8be1;
@@ -63,12 +65,16 @@ h1{
     text-align: center;
     line-height: 80px;
 }
+h2{
+    margin: 10px;
+}
 section{
     width: 100%
 }
 .aboutme{
     color:white;
     height: 85vh;
+    margin: 10px;
     background-blend-mode: multiply;
     background-color: rgba(0, 0, 0, 0.523);
     background-image: url("images/IMG_6697.jpg");
