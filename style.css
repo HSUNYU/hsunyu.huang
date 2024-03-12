@@ -25,6 +25,7 @@ tr:nth-child(1){
 header{
     background-color: #f3cb8be1;
     height: 80px;
+    width: auto;
 }
 .navbar ul {
     text-align: center;
@@ -42,24 +43,6 @@ header{
 .navbar ul li a:hover {
     text-decoration:underline;
 }
-
-.join{
-    display: flex;
-    justify-content: space-between;
-}
-.join div{
-    width: 300px;
-    text-align: left;
-}
-.join1{
-    display: flex;
-    justify-content: space-between;
-}
-.join1 div{
-    width: 300px;
-    text-align: left;
-}
-
 h1{
     color:rgb(107, 72, 39);
     text-align: center;
@@ -75,6 +58,7 @@ section{
     color:white;
     height: 85vh;
     margin: 10px;
+    width: auto;
     background-blend-mode: multiply;
     background-color: rgba(0, 0, 0, 0.523);
     background-image: url("images/IMG_6697.jpg");
@@ -82,15 +66,36 @@ section{
     background-size: cover;
     background-position: center;
 }
-
+details{
+    border-width:3px;
+    border-style:solid;
+    border-color:#cb9d6b;
+    rule:all;
+    margin: 10px;
+    table-layout: fixed;
+    font-size: 18px;
+    width: auto;
+}
+summary{
+    font-weight:bold;
+    background-color: #ffe4ce;
+    font-size:18px;
+    height:30px;
+    width: auto;
+}
+summary:hover {
+    text-decoration:underline;
+}
 footer{
     background-color:#f3cb8b;
     color:rgb(107, 72, 39);
     text-align: center;
     line-height: 40px;
+    width: auto;
 }
 .pic{
     border-radius: 10%;
     size: cover;
+    
 }
 
